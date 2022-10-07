@@ -1,0 +1,10 @@
+#caixa_imagem {
+    width: 923px;
+    height: 100vh;  
+    background-image: url("./assets/Design\ sem\ nome.png"); 
+    background-position:center;
+}
+#embrulho {
+    display: flex;
+    flex-direction: row;
+}
