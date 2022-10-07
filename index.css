@@ -8,3 +8,33 @@
     display: flex;
     flex-direction: row;
 }
+#caixa_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteudo_caixa_login {
+    background-color: #A8A8A8;
+    margin-left: 164px;
+    min-height: 388px;
+    min-width: 650px;
+}
+.estilizacao_logo {
+    width: 100px;
+}
+.form_basico {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    margin: auto;
+}
+.form_basico > label {
+    padding: 10px;
+}
+.form_basico > input {
+    
+}
+.estilo_botao {
+    display: flex;
+    justify-content: space-between;
+}
