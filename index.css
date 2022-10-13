@@ -1,48 +1,79 @@
 #caixa_imagem {
     width: 923px;
-    height: 100vh;  
-    background-image: url("./assets/Design\ sem\ nome.png"); 
-    background-position:center;
+    height: 100vh;
+    background-image: url("./assets/Design\ sem\ nome.png");
+    background-position: center;
 }
+
 #embrulho {
     display: flex;
     flex-direction: row;
 }
+
 #caixa_login {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #conteudo_caixa_login {
     background-color: #A8A8A8;
     margin-left: 164px;
     min-height: 388px;
     min-width: 650px;
 }
+
 .estilizacao_logo {
     width: 100px;
 }
+
 .form_basico {
     display: flex;
     flex-direction: column;
     width: 325px;
     margin: auto;
 }
-.form_basico > label {
+
+.form_basico>label {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 120%;
-    
+
 }
-.form_basico > input {
-    
-    
+
+.form_basico>input {
+    height: 23px;
+    border: none;
+    border-radius: 5px;
 }
+
 .estilo_botao {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.estilo_botao > button {
+    color: #A8A8A8;
+    background-color: #5885AF;
+    border-style: none;
+    height: 37px;
+    border-radius: 15px;
+    width: 6vw;
+}
+
+#lembra-senha {
+    width: 50%;
+    margin-left: 67%;
+    margin-top: 10px;
+}
+
+#lembra-senha > a {
+    text-decoration: none;
+    color: #03041F;
+    text-shadow: rgba(0, 0, 0, 0.25);
 }
