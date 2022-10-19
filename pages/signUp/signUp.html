@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./signUp.css">
+    <link rel="stylesheet" href="../../reset.css">
 
     <title>Lembre-se</title>
 </head>
@@ -16,23 +16,17 @@
         <div id="caixa_imagem"></div>
         <div id="caixa_login">
             <div id="conteudo_caixa_login">
-                <img src="./assets/Lembre-se-removebg-preview.png" alt="logo do sistema" class="estilizacao_logo">
+                <img src="../../assets/Lembre-se-removebg-preview.png" alt="logo do sistema" class="estilizacao_logo">
                 <form class="form_basico">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name">
                     <label for="e-mail">E-mail</label>
                     <input type="email" name="e-mail" id="e-mail">
                     <label for="senha">Senha</label>
                     <input type="password" name="senha" id="senha">
                     <div class="estilo_botao">
-                        <button>Login</button>
-                        <button>
-                            <a href="./pages/signUp/signUp.html">
-                                Cadastrar
-                            </a>
-                        </button>
+                        <button>Cadastrar</button>
                     </div>
-                    <span id="lembra-senha">
-                        <a href="">Esqueceu a senha</a>
-                    </span>
                 </form>
             </div>
         </div>

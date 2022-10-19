@@ -1,7 +1,7 @@
 #caixa_imagem {
     width: 923px;
     height: 100vh;
-    background-image: url("./assets/Design\ sem\ nome.png");
+    background-image: url("../../assets/Design\ sem\ nome.png");
     background-position: center;
 }
 
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     width: 325px;
-    margin: auto;
+    margin: -30px auto;
 }
 
 .form_basico>label {
